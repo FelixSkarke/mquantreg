@@ -27,7 +27,6 @@
 #'@references
 #'Cantoni, E., & Ronchetti, E. (2001). Robust inference for generalized linear models. Journal of the American Statistical Association, 96(455), 1022-1030.
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data(n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),

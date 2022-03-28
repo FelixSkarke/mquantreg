@@ -19,7 +19,6 @@
 #'@references
 #'Dawber, J. (2017). Advances in M-quantile estimation, University of Wollongong Thesis Collections
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",

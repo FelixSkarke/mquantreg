@@ -69,7 +69,6 @@
 #'}
 #'
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",
@@ -281,7 +280,6 @@ mquantreg <- function(formula,
 #'@param ... further arguments passed to or from other methods.
 #'\code{summary()}, \code{print()}, \code{fit()} and \code{predict()}-methods are avaiable.
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",
@@ -321,7 +319,6 @@ print.mquantfit <- function(x, ...){
 #'@param ... additional arguments affecting the summary produced
 #'\code{summary()}, \code{print()}, \code{fit()} and \code{predict()}-methods are avaiable.
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",
@@ -426,7 +423,6 @@ huberised <- function(x) {
 #'@param x a mquantfit object, produced by calling the mquantreg-function.
 #'@return a dataframe-object with booleans indicating if the observation has been Huberised.
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",
@@ -454,7 +450,6 @@ qscores <- function(x, ...) {
 #'@param x a mquantfit object, produced by calling the mquantreg-function.
 #'@return a dataframe-object with the qscores of all observations.
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",
@@ -515,7 +510,6 @@ qscores.mquantfit <- function(x, qgrid = c(0.1,
 #'@param ...	Arguments to be passed to methods, such as graphical parameters.
 #'@return a dataframe-object with the qscores of all observations.
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",
@@ -586,7 +580,6 @@ r2pseudo <- function(fit) {
 #'@param fit a mquantfit object, produced by calling the mquantreg-function.
 #'@return numeric, the pseudo r-square value.
 #'@examples
-#'library(mq1)
 #'df <- simulate_data(n = 1000,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
 #'                   response.type = "continuous.normal",

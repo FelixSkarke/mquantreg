@@ -21,7 +21,6 @@
 #'@param error.strength numeric controlling the strangth of outliers.
 #'@return dataframe
 #'@examples
-#'library(mq1)
 #'data_sim <- simulate_data(300,
 #'                         real.betas = c(0, 5),
 #'                         X = FALSE,

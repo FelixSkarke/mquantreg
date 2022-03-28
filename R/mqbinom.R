@@ -31,7 +31,6 @@
 #'
 #'
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data(n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),

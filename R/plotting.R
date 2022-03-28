@@ -8,7 +8,6 @@
 #'@param sqr.res boolean controlling if the plot should show the squared residuals instead.
 #'@param add.qvals numeric, containing additional m-quantiles to be shown in plot.
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data( n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
@@ -85,7 +84,6 @@ ggplot.fit.res <- function(fit,
 #'@param fit a mquantfit object, produced by calling the mquantreg-function.
 #'@param add.qvals numeric, containing additional m-quantiles to be shown in plot.
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data(n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
@@ -150,7 +148,6 @@ ggplot.prop.res <- function(fit,
 #'@param fit a mquantfit object, produced by calling the mquantreg-function.
 #'@param add.qvals numeric, containing additional m-quantiles to be shown in plot.
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data( n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
@@ -232,7 +229,6 @@ ggplot.fitted.observed <- function(fit,
 #'@param kend  numeric, the last k estimated and shown in the plot.
 #'@param kstep numeric, controls the steps in which k is increased between kstart and kend.
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data(n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
@@ -317,7 +313,6 @@ ggplot.optk <- function(fit,
 #'@param fit a mquantfit object, produced by calling the mquantreg-function.
 #'@param coef numeric, coefficient to plot. Defaults to \code{FALSE}.
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data( n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
@@ -386,7 +381,6 @@ ggplot.coef.q <- function(fit , coef = FALSE) {
 #'@param add.qvals numeric, containing additional m-quantiles to be shown in plot.
 #'
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data( n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
@@ -442,7 +436,6 @@ ggplot.prop.huber.k <- function(fit,
 #' This plot shows the effect of k on the amount of observation being classified as outliers and therefore downweighted.
 #'@param fit a mquantfit object, produced by calling the mquantreg-function.
 #'@examples
-#'library(mq1)
 #'
 #'df <- simulate_data( n = 100,
 #'                   real.betas = c(0.1, 0.3, 0.1 ),
